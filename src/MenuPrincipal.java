@@ -1,10 +1,12 @@
+import br.com.alura.screenmatch.modelos.Filme;
+
 public class MenuPrincipal {
     public static void main(String[] args){
         Filme meuFilme = new Filme();
-        meuFilme.titulo = "Velozes e furiosos";
-        meuFilme.anodelancamento = 2001;
-        meuFilme.categoria = "Ação";
-        meuFilme.duracao = 120;
+        meuFilme.setTitulo("Velozes e furiosos");
+        meuFilme.setAnodelancamento(2001);
+        meuFilme.setCategoria("Ação");
+        meuFilme.setDuracao(120);
 
         meuFilme.exibaFichaTecnica();
 
